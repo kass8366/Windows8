@@ -1,0 +1,68 @@
+@import "./reset.css";
+
+body{
+     overflow-x: scroll;
+     overflow-y: hidden;
+     background-color: violet;
+   }
+
+main {
+     height: 100svh;
+     padding: 100px 200px 100px 100px;
+}
+
+.header {
+     position: fixed;
+     top: 0px;
+     left: 0px;
+     width: 100svw;
+     display: flex;
+     justify-content: space-between;
+     padding: 100px 100px 0px 100px;
+     color: white;
+     align-items: end;
+}
+
+h1 {
+     font-size: 47px;
+     font-weight: 700;
+}
+
+h2 {
+     font-size: 30px;
+     font-weight: 700;
+}
+
+.menu {
+     width: 2800px;
+     display: flex;
+     margin-top: 150px;
+     gap: 40px;
+}
+.column {
+     max-width: 220px;
+     max-height: 720px;
+     display: flex;
+     flex-wrap: wrap;
+     gap: 20px;
+}
+
+.big_box {
+     width: 220px;
+     height: 220px;
+     background-color: blue;
+}
+
+.little_box {
+     width: 100px;
+     height: 100px;
+     background-color: yellow;
+}
+
+.rectangle {
+     width: 220px;
+     height: 100px;
+     background-color: green;
+
+}
+
